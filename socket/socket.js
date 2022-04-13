@@ -6,7 +6,7 @@ var io = require('socket.io')(9700);
 var id = 0;
 
 var connectedOrigins = [];
-var allowedOrigin = "example.com"; // Your website domain
+var allowedOrigin = "balkanagar.org"; // Your website domain
 var fs = require('fs'); 
 
 playersOnline = 0;
